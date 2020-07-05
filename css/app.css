@@ -10,6 +10,9 @@ body{
 a{
 	color: #fff;
 }
+ul {
+    list-style-type: none;
+}
 a:hover, a:active, a:focus{	
 	color: #fff;
 	text-decoration: none;
@@ -72,6 +75,7 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	color: #dadada;
 }
 .btn-root{
+	font-size: 0.8rem;
 	color: #fff;
 	background: linear-gradient(20deg, #360052, #0c0106, #360052);
 	border: 1px solid transparent;
@@ -257,11 +261,10 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	z-index: -1;
 }
 .nav-head{
-	background: url('../img/saking/header-bg.png');
+	background: linear-gradient(0deg,#290c40, rgba(54, 0, 82, 0.4));
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/* background-color: #15100c; */
 	position: relative;
 }
 .nav-head::before{
@@ -396,16 +399,16 @@ marquee{
 	margin-bottom: 98px;
 }
 .footer-sitemap{
-	background: linear-gradient(90deg, #b2892f, #e5c878, #b2892f);
+	background: linear-gradient(0deg , #0b030c,#191918);
 	position: relative;
 }
-.footer-sitemap::before{
+/* .footer-sitemap::before{
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 4px;
 	background: linear-gradient(90deg, #553216, #ffe49f, #553216);
-}
+} */
 .footer-sitemap .sitemap h4{
 	font-size: 1.2rem;
 }
@@ -619,6 +622,7 @@ marquee{
 	width: 50%;
 }
 .img-fluid{
+	width: 100%;
 	padding-bottom: 10px;
 }
 .content-1{
@@ -627,7 +631,7 @@ marquee{
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-image: linear-gradient(
-		to bottom, transparent, #20012f
+		to bottom, transparent, #0b030c
 	  ), url('../img/section-1-bg.png');
 	/* background-color: linear-gradient( #000, #20012f); */
 }
@@ -635,7 +639,16 @@ marquee{
 	background: transparent;
 }
 .content-3{
-	background: #181818;
+	background: #0b030c;
+}
+.content-news:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	left: 0;
+	top: 0;
+	background: linear-gradient(90deg, transparent, #a4743c, transparent);
 }
 .st-5{
 	background: linear-gradient(90deg, #be9140, #fef998, #be9140);
@@ -1239,6 +1252,21 @@ marquee{
 .menu-item img{
 	padding:5px;
 }
+.menu-item-m{
+	justify-content: space-between;
+}
+.menu-item-m img{
+	padding:5px;
+	width: 40px;
+}
+.menu-item-m a p{
+	padding: 0;
+	padding-bottom: 5px;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	font-size: 10px;
+}
 .content-image{
 	padding-left: 20px;
 	padding-right: 20px;
@@ -1261,5 +1289,25 @@ marquee{
 	color: #fff;
 	font-size: 18px;
 	font-weight: 300;
+}
+.c-gold{
+	background: linear-gradient(90deg, #be903f, #fffa99, #be903f) !important;
+}
+.item img{
+	width: 100%;
+}
+.container-footer{
+	color: #fff;
+}
+.fs-10{
+	font-size: 10px;
+}
+.fs-12{
+	font-size: 12px !important;
+}
+.ls{
+	padding-left: 0;
+	font-size: 10px;
+	color: #fff;
 }
 /* End edit */
