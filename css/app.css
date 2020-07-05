@@ -119,6 +119,19 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	overflow: hidden;
 	border-radius: 0;
 }
+.none-border{
+	border-color: transparent !important;
+}
+.none-border:after{
+	margin-top: 20px;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	left: 0;
+	top: 0;
+	background: linear-gradient(90deg, transparent, #a4743c, transparent);
+}
 .card .card-header{
 	color: #000;
 	padding: 10px;
@@ -606,12 +619,36 @@ marquee{
 	.banner{
 		background-size: auto;
 	}
-}
-@media(min-width: 768px) {
-	.banner{
-		/* background: url('../img/bn-bg1.png'); */
+	.banner-game{
+		background-position: right 50% top -7% !important;
+	}
+	.mt-100 {
+		margin-top: 50px !important;
+	}
+	.mt-200{
+		margin-top: 300px !important;
 	}
 }
+@media(min-width: 768px) {
+	.mt-100 {
+		margin-top: 100px !important;
+	}
+	.mt-200{
+		margin-top: 300px !important;
+	}
+}
+
+.banner-game{
+	position: relative;
+	background: url('../img/saking/bggame.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+.banner-game > .mini > .row{
+	align-items: flex-end;
+}
+
 .img-fluid-banner{
 	width: 80%;
 }
@@ -635,6 +672,13 @@ marquee{
 	  ), url('../img/section-1-bg.png');
 	/* background-color: linear-gradient( #000, #20012f); */
 }
+.content-1-game{
+	/* background: url('../img/section-1-bg.png') ,-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); Chrome10+,Safari5.1+; */
+	background-position: center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
 .content-2{
 	background: transparent;
 }
@@ -1309,5 +1353,22 @@ marquee{
 	padding-left: 0;
 	font-size: 10px;
 	color: #fff;
+}
+.img-model-1{
+	position: absolute;
+    top: 0;
+    width: 95%;
+}
+.img-model-2{
+	position: absolute;
+	top: 0;
+	right: 0;
+    width: 95%;
+}
+.content-game{
+	margin-top: 150px;
+}
+.mt-200{
+	margin-top: 100px;
 }
 /* End edit */

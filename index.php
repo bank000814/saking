@@ -29,7 +29,10 @@
 		</div>
 	</section>
 
+	
 	<section class="content-1">
+		<img class="img-model-1 d-none d-sm-block" src="./img/saking/model1.png" alt="">
+		<img class="img-model-2 d-none d-sm-block" src="./img/saking/model2.png" alt="">
 		<div class="st-1 py-4">
 			<div class="container mini">
 				<div class="row text-center">
@@ -51,6 +54,7 @@
 				</div>
 			</div>
 		</div>
+		
 
 		<div class="st-2 py-4">
 			<div class="container mini">
@@ -105,6 +109,9 @@
 									<img src="./img/saking/320*145.png" class="img-fluid" alt="">
 								</div>
 							</div>
+							<iframe width="100%" class="d-none d-sm-block"
+								src="https://www.youtube.com/embed/tgbNymZ7vqY">
+							</iframe>
 					</div>
 					<div class="col-12 col-sm-8">
 						<img src="./img/saking/how-to-play.png" alt="" width="100%">
@@ -141,6 +148,9 @@
 							</div>
 						</div>
 						<img src="./img/saking/Banking.png" alt="" width="100%">
+						<iframe width="100%" class="d-block d-sm-none my-3"
+							src="https://www.youtube.com/embed/tgbNymZ7vqY">
+						</iframe>
 						<div class="card my-3">
 							<div class="card-body">
 								<h5>Saking168 คาสิโนออนไลน</h5>
