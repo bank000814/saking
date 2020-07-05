@@ -75,7 +75,7 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	color: #dadada;
 }
 .btn-root{
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	color: #fff;
 	background: linear-gradient(20deg, #360052, #0c0106, #360052);
 	border: 1px solid transparent;
