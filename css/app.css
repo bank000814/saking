@@ -1385,10 +1385,14 @@ marquee{
 	font-size: 20px;
 }
 .img-model-2 i{
+	
+}
+.img-model-2{
 	position: fixed;
-    bottom: 500px;
-    right: 250px;
+    bottom: 0px;
+    right: 0px;
     z-index: 99;
+	width: 20%;
 }
 .img-model-2 img{
 	position: fixed;

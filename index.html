@@ -429,7 +429,7 @@
 
 	<section class="content-1">
 		<div class="img-model-1 d-none d-sm-block" id="model1">
-			<i class="fa fa-times" onclick="document.getElementById('model1').style.display='none'"></i>
+			<i class="fa fa-times" onclick="document.getElementById('model1').style.display='none !important'"></i>
 			<img class="" src="./img/saking/model1.png" alt="">
 		</div>
 		<div class="st-1 py-4">
@@ -895,7 +895,16 @@
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>
-
+	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js'></script>
+	<script type="text/javascript">
+		$(".carousel").swipe({
+			swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+				if (direction == 'left') $(this).carousel('next');
+				if (direction == 'right') $(this).carousel('prev');
+			},
+			allowPageScroll: "vertical"
+		});
+	</script>
 </body>
 
 </html>
