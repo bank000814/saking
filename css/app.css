@@ -1366,41 +1366,18 @@ marquee{
 	font-size: 10px;
 	color: #fff;
 }
-.img-model-1{
-    position: fixed;
+.img-model{
+	justify-content: space-between;
+	display: flex;
+	position: fixed;
 	bottom: 0px;
-    left: 0px;
-    z-index: 99;
+	z-index: 99;
 }
-.img-model-1 img{
-	width: 15%;
-}
-.img-model-1 i{
-	position: fixed;
-	left: 250px;
-    z-index: 99;
-}
-.img-model-1 i, .img-model-2 i{
-	color: #fff;
+.img-model i{
 	font-size: 20px;
+	color: #fff;
 }
-.img-model-2 i{
 	
-}
-.img-model-2{
-	position: fixed;
-    bottom: 0px;
-    right: 0px;
-    z-index: 99;
-	width: 20%;
-}
-.img-model-2 img{
-	position: fixed;
-    bottom: 0px;
-    right: 0px;
-    z-index: 99;
-	width: 20%;
-}
 .content-game{
 	margin-top: 150px;
 }
