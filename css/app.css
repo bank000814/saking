@@ -75,11 +75,15 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	color: #dadada;
 }
 .btn-root{
-	font-size: 0.7rem;
 	color: #fff;
-	background: linear-gradient(20deg, #360052, #0c0106, #360052);
-	border: 1px solid transparent;
-	border-color: #fff;
+    background: linear-gradient(20deg, #360052, #0c0106, #360052);
+    border: 1px solid transparent;
+    border-color: #fff;
+    /* height: 100%; */
+}
+.text-time{
+	font-size: 18px;
+    margin: auto 0;
 }
 /* .btn-root:hover,
 .btn-root:focus,
@@ -92,14 +96,14 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	border-left-color: #dbcf92;
 } */
 .btn-play{
-	font-size: 0.8rem;
-	color: #fff;
-	background: linear-gradient(0deg, #6a0000, #bf0000);
-	border: 2px solid transparent;
-	border-top-color: #fd3f3f;
-	border-right-color: #800000;
-	border-bottom-color: #4e0000;
-	border-left-color: #d21c1c;
+	font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(0deg, #6a0000, #bf0000);
+    border: 2px solid transparent;
+    border-top-color: #fd3f3f;
+    border-right-color: #800000;
+    border-bottom-color: #4e0000;
+    border-left-color: #d21c1c;
 }
 .btn-play:hover,
 .btn-play:focus,
@@ -627,6 +631,10 @@ marquee{
 	}
 	.mt-200{
 		margin-top: 300px !important;
+	}
+	.btn-root , .btn-play{
+		font-size: 0.7rem;
+		height: none;
 	}
 }
 @media(min-width: 768px) {
@@ -1297,19 +1305,23 @@ marquee{
 	padding:5px;
 }
 .menu-item-m{
-	justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
 }
 .menu-item-m img{
 	padding:5px;
-	width: 40px;
+	height: 40px;
 }
 .menu-item-m a p{
 	padding: 0;
 	padding-bottom: 5px;
 	margin: 0;
-	position: absolute;
+	/* position: absolute; */
 	bottom: 0;
-	font-size: 10px;
+	font-size: 11px;
+	font-weight: 600;
 }
 .content-image{
 	padding-left: 20px;
@@ -1355,15 +1367,35 @@ marquee{
 	color: #fff;
 }
 .img-model-1{
-	position: absolute;
-    top: 0;
-    width: 95%;
+    position: fixed;
+	bottom: 0px;
+    left: 0px;
+    z-index: 99;
 }
-.img-model-2{
-	position: absolute;
-	top: 0;
-	right: 0;
-    width: 95%;
+.img-model-1 img{
+	width: 15%;
+}
+.img-model-1 i{
+	position: fixed;
+	left: 250px;
+    z-index: 99;
+}
+.img-model-1 i, .img-model-2 i{
+	color: #fff;
+	font-size: 20px;
+}
+.img-model-2 i{
+	position: fixed;
+    bottom: 500px;
+    right: 250px;
+    z-index: 99;
+}
+.img-model-2 img{
+	position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+	width: 20%;
 }
 .content-game{
 	margin-top: 150px;
