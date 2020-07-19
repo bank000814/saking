@@ -624,7 +624,11 @@ marquee{
 }
 @media(max-width: 768px) {
 	.banner{
-		background-size: auto;
+		padding-top: 0px;
+		padding-bottom: 200px;
+		background-position: center center;
+		background: url(../img/saking/bghomemobile.png);
+		background-size: cover;
 	}
 	.banner-game{
 		background-position: right 50% top -7% !important;
@@ -1364,6 +1368,10 @@ marquee{
 .img-slot:nth-child(7) {
 	left: -197px;
 }
+.slotbanner{
+	position: relative;
+    left: 15px;
+}
 @media(max-width: 768px){
 	.slotbanner{
 		position: relative;
@@ -1373,7 +1381,7 @@ marquee{
 		padding-bottom: 0px;
 	}
 	.img-slot{
-		width: 18.6% !important;
+		width: 18.2% !important;
 	}
 	.img-slot:nth-child(2) {
 		left: -15px;
