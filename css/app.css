@@ -124,6 +124,7 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	border-radius: 0;
 }
 .none-border{
+	border: none;
 	border-color: transparent !important;
 }
 .none-border:after{
