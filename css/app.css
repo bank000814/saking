@@ -5,7 +5,14 @@ body{
 	font-size: 0.85rem;
 	line-height: 1.4;
 	color: #000;
-	background: #000;
+	background: #000;	
+}
+.bgfullpage{
+	position: relative;
+	background: url('../img/saking/gbfull.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 a{
 	color: #fff;
