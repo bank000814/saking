@@ -278,7 +278,7 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	z-index: -1;
 }
 .nav-head{
-	background: linear-gradient(0deg,#290c40, rgba(54, 0, 82, 0.4));
+	background: linear-gradient(90deg,transparent, #280c2d, transparent);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -292,7 +292,7 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: linear-gradient(90deg, transparent, rgba(181, 159, 134, 0.6), transparent);
+	background: linear-gradient(90deg, transparent, rgba(140, 102, 111, 0.6), transparent);
 }
 .nav-head .logo{
 	max-height: 100%;
@@ -610,10 +610,12 @@ marquee{
 }
 .banner{
 	position: relative;
-	background: url('../img/saking/bghome.png');
+	background: url('../img/saking/bghome2.png');
 	background-position: center center;
+	backdrop-filter: contrast(80%);
 	background-repeat: no-repeat;
 	background-size: auto;
+	padding-top: 100px;
 }
 
 .banner > .mini > .row{
@@ -1328,7 +1330,7 @@ marquee{
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 100px;
-	background: linear-gradient(to bottom, #360052, #000, #360052,transparent);
+	background: linear-gradient(to bottom, #2f0035, #000, #2f0035,transparent);
 	/*  */
 	/* background: linear-gradient(0deg,#000, #360052, #000, #360052); */
 }
