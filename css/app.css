@@ -652,7 +652,7 @@ marquee{
 .banner-game{
 	position: relative;
 	background: url('../img/saking/bggame.png');
-	background-position: top center;
+	background-position: top -50px center;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
@@ -1335,18 +1335,79 @@ marquee{
 	/*  */
 	/* background: linear-gradient(0deg,#000, #360052, #000, #360052); */
 }
+/* 
+-43px
+-76px
+-94px
+-115px
+-149px
+-197px
+ */
+.img-slot{
+	position: relative;
+}	
+.img-slot:nth-child(2) {
+	left: -43px;
+}
+.img-slot:nth-child(3) {
+	left: -76px;
+}
+.img-slot:nth-child(4) {
+	left: -94px;
+}
+.img-slot:nth-child(5) {
+	left: -115px;
+}
+.img-slot:nth-child(6) {
+	left: -149px;
+}
+.img-slot:nth-child(7) {
+	left: -197px;
+}
+@media(max-width: 768px){
+	.slotbanner{
+		position: relative;
+		left: -16px;
+	}
+	.content-image{
+		padding-bottom: 0px;
+	}
+	.img-slot{
+		width: 18.6% !important;
+	}
+	.img-slot:nth-child(2) {
+		left: -15px;
+	}
+	.img-slot:nth-child(3) {
+		left: -28px;
+	}
+	.img-slot:nth-child(4) {
+		left: -34px;
+	}
+	.img-slot:nth-child(5) {
+		left: -41px;
+	}
+	.img-slot:nth-child(6) {
+		left: -55px;
+	}
+	.img-slot:nth-child(7) {
+		left: -70px;
+	}
+}
+
+
 .content-image img{
 	width: 100%;
 }
 .content-image h4{
 	text-align: center;
 	color: #fff;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 500;
 }
 .content-image h4 span{
 	color: #fff;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 300;
 }
 .c-gold{
