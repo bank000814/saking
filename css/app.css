@@ -1,5 +1,6 @@
 *{
-	font-family: Kanit, Arial, Helvetica, sans-serif
+	/* font-family: Kanit, Arial, Helvetica, sans-serif */
+	font-family: 'Prompt', sans-serif;
 }
 body{
 	font-size: 0.85rem;
@@ -1387,6 +1388,12 @@ marquee{
 	.content-image{
 		padding-bottom: 0px;
 	}
+	.content-image h4{
+		font-size: 15px !important;
+	}	
+	.content-image h4 span{
+		font-size: 15px !important;
+	}
 	.img-slot{
 		width: 18.2% !important;
 	}
@@ -1415,15 +1422,16 @@ marquee{
 	width: 100%;
 }
 .content-image h4{
-	text-align: center;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 500;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 .content-image h4 span{
 	color: #fff;
-	font-size: 14px;
-	font-weight: 300;
+	font-size: 20px;
+	font-weight: 500;
 }
 .c-gold{
 	background: linear-gradient(90deg, #be903f, #fffa99, #be903f) !important;
@@ -1462,5 +1470,16 @@ marquee{
 }
 .mt-200{
 	margin-top: 100px;
+}
+.card-text{
+	height: 125px;
+}
+.card-text h6 {
+	font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+}
+.card-text p {
+	font-size: 12px;
 }
 /* End edit */
