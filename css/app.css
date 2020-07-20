@@ -151,7 +151,7 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	text-align: center;
 	border-radius: 0;
 	text-transform: uppercase;
-	background: linear-gradient(90deg, #af7e26, #f6b543, #af7e26);
+	background: linear-gradient(90deg, #b28c3a, #f1ee84, #b28c3a, #f1ee84, #a57c35);
 }
 .header-title{
 	color: #000;
@@ -639,7 +639,8 @@ marquee{
 		background-size: cover;
 	}
 	.banner-game{
-		background-position: right 50% top -7% !important;
+		background-size: auto !important;
+	    background-position: right 50% top -7% !important;
 	}
 	.mt-100 {
 		margin-top: 50px !important;
@@ -664,9 +665,9 @@ marquee{
 .banner-game{
 	position: relative;
 	background: url('../img/saking/bggame.png');
-	background-position: top -50px center;
+	background-position: top center;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: contain;
 }
 .banner-game > .mini > .row{
 	align-items: flex-end;
@@ -916,7 +917,7 @@ marquee{
 	background: rgba(0, 0, 0, 0.7);
 	width: 100%;
 	text-align: center;
-	color: #fdf29b;
+	color: #fff;
 	text-transform: uppercase;
 }
 .cs-2 a:hover .card.item .card-text{
@@ -1032,7 +1033,7 @@ marquee{
 	padding: .5rem;
 	background: rgba(0, 0, 0, 0.7);
 	width: 100%;
-	color: #fdf29b;
+	color: #fff;
 	text-transform: uppercase;
 }
 .sp-2 .card.item .card-text small{
@@ -1099,12 +1100,12 @@ marquee{
 	font-size: 1.5rem;
 	padding: .4rem 1.5rem;
 	color: #fff;
-	border-radius: 30px;
+	border-radius: 60px;
   text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-		 1px 1px 0 #000;
+   -3px -3px 0 #000,  
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+		 3px 3px 0 #000;
 	border: 2px solid transparent;
 	background: linear-gradient(90deg, #b2853a, #fefb96, #b2853a, #fefb96, #a57c35);
 	border-top-color: #e9da7b;
@@ -1144,7 +1145,7 @@ marquee{
 	background: rgba(0, 0, 0, 0.7);
 	width: 100%;
 	text-align: center;
-	color: #fdf29b;
+	color: #fff;
 	text-transform: uppercase;
 }
 .ga-2 a:hover .card.item .card-text{
@@ -1157,15 +1158,16 @@ marquee{
 			background-size: 150% auto;
 	}
 	.ga-1{
-    height: 15rem;
-    padding: 1rem 25% 0;
+    /* height: 15rem; */
+	/* padding: 1rem 25% 0; */
+	padding-top: 2rem;
 	}
 	.ga-2{
 		margin-top: -3rem;
 	}
 	.ga-1 .btn-playnow{
-		font-size: 1rem;
-		padding: .3rem 1rem;
+		font-size: 1.7rem;
+		padding: .5rem 3rem;
 	}
 }
 @media(min-width: 768px) {
@@ -1178,19 +1180,19 @@ marquee{
 	}
 	.ga-1 .btn-playnow{
 		font-size: 1.2rem;
-		padding: .3rem 1.2rem;
+		padding: .5rem 3rem;
 	}
 }
 @media(min-width: 992px) {
 	.ga-1{
 		height: 35rem;
-		padding-top: 5rem;
+		padding-top: 1rem;
 	}
 	.ga-2{
 		margin-top: -8rem;
 	}
 	.ga-1 .btn-playnow{
-		font-size: 1.5rem;
+		font-size: 3rem;
 		padding: .4rem 1.5rem;
 	}
 }
@@ -1471,7 +1473,7 @@ marquee{
 .mt-200{
 	margin-top: 100px;
 }
-.card-text{
+.card-text-h{
 	height: 125px;
 }
 .card-text h6 {
