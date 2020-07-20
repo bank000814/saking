@@ -1139,14 +1139,16 @@ marquee{
 }
 .ga-2 .card.item .card-text{
 	left: 0;
-	bottom: 0;
-	position: absolute;
-	padding: .5rem;
-	background: rgba(0, 0, 0, 0.7);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
+    bottom: 0;
+    height: 45px;
+    position: absolute;
+    padding: .5rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+	/* background: rgba(0, 0, 0, 0.7); */
+
 }
 .ga-2 a:hover .card.item .card-text{
 	color: #fff;
