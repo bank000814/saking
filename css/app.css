@@ -668,8 +668,8 @@ marquee{
 		padding-bottom: 200px;
 	}
 	.banner-game{
-		background-size: auto !important;
-	    background-position: right 50% top -7% !important;
+		background-size: cover !important;
+		padding-bottom: 0px !important;
 	}
 	.mt-100 {
 		margin-top: 50px !important;
@@ -696,7 +696,11 @@ marquee{
 	background: url('../img/saking/bggame.png');
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	padding-bottom: 300px;
+}
+.mt-200-x{
+	margin-top: -200px;
 }
 .banner-game > .mini > .row{
 	align-items: flex-end;
