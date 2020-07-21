@@ -645,6 +645,9 @@ marquee{
 	align-items: flex-end;
 }
 @media(max-width: 768px) {
+	.mt-0-sm{
+		margin-top: 0px !important;
+	}
 	.img-fluid-banner{
 		width: 90% !important;
 	}
