@@ -10,10 +10,10 @@ body{
 }
 .bgfullpage{
 	position: relative;
-	background: url('../img/saking/gbfull.png');
-	background-position: top center;
+	background: url('../img/saking/bgfull.png');
+	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: contain;
 }
 a{
 	color: #fff;
@@ -623,20 +623,13 @@ marquee{
 	100% {background-position-x: -1000px;}
 }
 .banner{
-	/* position: relative;
-	background: url('../img/saking/bghome2.png');
-	background-position: top center;
-	backdrop-filter: contrast(80%);
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 100px; */
 	position: relative;
     background: url(../img/saking/bghome2.png);
     background-position: top center;
     backdrop-filter: contrast(80%);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 .paner{
 	margin-top: -145px;
