@@ -159,8 +159,13 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	text-align: center;
 	border-radius: 0;
 	text-transform: uppercase;
-	background: linear-gradient(90deg, #af7e26, #f6b543, #af7e26);
+	background: linear-gradient(0deg, #af7e26, #f6b543, #af7e26);
 }
+.header-title h5{
+	padding: 0;
+	margin: 0;
+}
+
 .card .card-header h5{
 	padding: 0;
 	margin: 0;
@@ -620,7 +625,7 @@ marquee{
 .banner{
 	position: relative;
 	background: url('../img/saking/bghome2.png');
-	background-position: center center;
+	background-position: top -120px center;
 	backdrop-filter: contrast(80%);
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -1310,8 +1315,8 @@ marquee{
 	margin-right: 10px;
 }
 .menu-logo-nav{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .menu-item{
     text-align: center;
