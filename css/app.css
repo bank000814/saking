@@ -715,7 +715,7 @@ marquee{
 .img-fluid-line{
 	width: 50%;
 }
-.img-fluid{
+.img-fluid-edit{
 	width: 100%;
 	padding-bottom: 10px;
 }
@@ -944,14 +944,14 @@ marquee{
 }
 .cs-2 .card.item .card-text{
 	left: 0;
-	bottom: 0;
-	position: absolute;
-	padding: .5rem;
-	background: rgba(0, 0, 0, 0.7);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
+    bottom: 0;
+    position: absolute;
+    padding: .5rem;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    color: #fdf29b;
+    text-transform: uppercase;
 }
 .cs-2 a:hover .card.item .card-text{
 	color: #fff;
@@ -1112,9 +1112,8 @@ marquee{
 
 
 /*    game     */
-
 .game{
-	background: url('../img/game/game-bg.png');
+	background: url('../img/saking/pageGame/bgGamePage.png');
 	background-position: center top;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -1122,11 +1121,11 @@ marquee{
 .ga-1{
 	height: 35rem;
 	padding-top: 5rem;
-	background: url('../img/game/banner.png');
-	background-position: bottom center;
-	background-size: auto 80%;
-	background-repeat: no-repeat;
-	text-align: center;
+	background: url('../img/saking/pageGame/bgGame.png');
+	background-position: top center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 .ga-1 .btn-playnow{
@@ -1135,10 +1134,10 @@ marquee{
 	color: #fff;
 	border-radius: 60px;
   text-shadow:
-   -3px -3px 0 #000,  
-    3px -3px 0 #000,
-    -3px 3px 0 #000,
-		 3px 3px 0 #000;
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+		 2px 2px 0 #000;
 	border: 2px solid transparent;
 	background: linear-gradient(90deg, #b2853a, #fefb96, #b2853a, #fefb96, #a57c35);
 	border-top-color: #e9da7b;
@@ -1168,20 +1167,18 @@ marquee{
 	position: relative;
 	overflow: hidden;
 	border-radius: calc(.25rem - 1px);
-	border-color: #be9040;
+	border-color: #fff;
 }
 .ga-2 .card.item .card-text{
 	left: 0;
-    bottom: 0;
-    height: 45px;
-    position: absolute;
-    padding: .5rem;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-	/* background: rgba(0, 0, 0, 0.7); */
-
+	bottom: 0;
+	position: absolute;
+	padding: .5rem;
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
 }
 .ga-2 a:hover .card.item .card-text{
 	color: #fff;
@@ -1189,6 +1186,9 @@ marquee{
 }
 
 @media(max-width: 768px) {
+	.img-80{
+		width: 80% !important;
+	}
 	.game {
 			background-size: 150% auto;
 	}
@@ -1220,7 +1220,7 @@ marquee{
 }
 @media(min-width: 992px) {
 	.ga-1{
-		height: 35rem;
+		height: 45rem;
 		padding-top: 1rem;
 	}
 	.ga-2{
