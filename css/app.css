@@ -297,6 +297,7 @@ a.c-darkred:hover,a.c-darkred:active,a.c-darkred:focus{ color: #9e0a05; }
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	z-index: 90;
 }
 .nav-head::before{
 	content: "";
@@ -1489,13 +1490,36 @@ marquee{
 	display: flex;
 	position: fixed;
 	bottom: 0px;
-	z-index: 99;
+	z-index: 0;
 }
-.img-model i{
+.female-model-left i , .female-model-right i{
 	font-size: 20px;
 	color: #fff;
 }
-	
+.female-model-left img{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.female-model-left i{
+	position: fixed;
+    left: 14%;
+    bottom: 45%;
+    z-index: 100;
+}
+.female-model-right img{
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.female-model-right i{
+	position: fixed;
+    right: 17%;
+    bottom: 45%;
+    z-index: 100;
+}
 .content-game{
 	margin-top: 150px;
 }
