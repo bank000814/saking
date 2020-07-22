@@ -1179,7 +1179,7 @@ marquee{
 	background: rgba(0, 0, 0, 0.8);
 }
 
-@media(max-width: 768px) {
+@media(max-width:768px) {
 	.img-80{
 		width: 80% !important;
 	}
@@ -1358,8 +1358,8 @@ marquee{
 
 }
 .menu-item-m img{
-	padding:5px;
-	height: 40px;
+	padding: 5px;
+    height: 35px;
 }
 .menu-item-m a p{
 	padding: 0;
@@ -1379,14 +1379,6 @@ marquee{
 	/*  */
 	/* background: linear-gradient(0deg,#000, #360052, #000, #360052); */
 }
-/* 
--43px
--76px
--94px
--115px
--149px
--197px
- */
 .img-slot{
 	position: relative;
 }	
